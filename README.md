@@ -2,6 +2,64 @@
 
 ## Stock Analysis
 
+This project focuses on analyzing stock data using Yahoo Finance. The analysis includes calculating various financial metrics,
+plotting visualizations, and comparing investment strategies. The notebook is structured into several sections, each building
+on different techniques to explore stock market performance.
+
+### Sections Overview
+
+#### 1. Basic Commands with Yahoo Finance
+
+Objective: Learn and explore basic commands using the Yahoo Finance API.
+
+Actions:
+
+Downloaded stock data for Apple (AAPL) and computed its mean and variance.
+Plotted graphs to visualize nominal and normalized stock prices.
+Created new columns in the DataFrame to analyze specific stock metrics, such as the difference in stock prices between consecutive days.
+Plotted a histogram showing the percentage variation of the AAPL stock to better understand its volatility.
+
+#### 2. Multiple Stocks Analysis
+
+Objective: Expand the analysis to multiple stocks and analyze their risk/return profiles.
+
+Actions:
+
+Retrieved stock data for several different companies.
+Calculated the annual mean and standard deviation (std) for each stock to evaluate its risk and return.
+Plotted a heatmap to visualize the correlation between stocks, which helped in selecting 5 stocks for further analysis.
+
+#### 3. Moving Average Calculation
+
+Objective: Learn how to calculate moving averages and apply them to the selected stocks.
+
+Actions:
+
+Computed the moving average for the 5 selected stocks to identify trends in their price movements.
+
+#### 4. Cumulative Returns and Drawdowns
+
+Objective: Understand and calculate cumulative returns and drawdowns.
+
+Actions:
+
+Analyzed the cumulative returns for the selected stocks.
+Studied drawdowns (peak-to-trough declines) to assess the risk of each stock over time.
+
+#### 5. SMA Strategy vs. Buy & Hold
+
+Objective: Implement and test a Simple Moving Average (SMA) trading strategy.
+
+Actions:
+
+Applied an SMA strategy to Apple stock and compared it with a basic buy & hold strategy to determine which would have yielded better results.
+Expanded this comparison to the 5 selected stocks, applying the SMA strategy to each and filtering out the top 3 based on performance.
+
+### Conclusion
+
+This project allowed for in-depth analysis of stock market data using a variety of metrics and techniques. From calculating basic financial statistics
+to implementing a trading strategy, it offers insights into how different methods can be used to evaluate stock performance and make data-driven investment decisions.
+
 ## SMABackTest
 
 The SMABacktester class is designed to backtest a simple moving average (SMA) trading strategy on stock market data using the yfinance library for fetching historical stock prices. Here's a summary of the class and its functionality:
